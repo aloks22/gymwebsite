@@ -1,0 +1,117 @@
+/* CSS Reset  */
+body {
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  margin: 0px;
+  padding: 0px;
+  background: url(../images/woman-2250970_1920.jpg);
+  color: whitesmoke;
+  /* height: 1200px;
+width: 1200px; */
+}
+
+.left {
+  border: 2px solid green;
+  display: inline-block;
+  position: absolute;
+  left: 50px;
+  top: 18px;
+}
+
+.left img {
+  height: 4em;
+  width: 4em;
+  filter: invert(90%);
+}
+
+.logoDiv {
+  text-align: center;
+  color: white;
+  background: Green;
+
+}
+
+.mid {
+  /* border: 2px solid green; */
+  display: block;
+  width: 53%;
+  margin: 28px auto;
+  /* margin-top: 1.9em; */
+}
+
+.right {
+  /* border: 2px solid green; */
+  display: inline-block;
+  position: absolute;
+  right: 34px;
+  top: 30px;
+}
+
+.navbar li {
+  display: inline-block;
+  line-height: 60px;
+
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 1.5em;
+}
+
+.navbar li a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+.btn {
+  margin: 2em 2em;
+  width: 90px;
+  color: white;
+  border: radius 15px;
+  background-color: green;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  text-align: center;
+  /* align-self: center; */
+}
+
+.btn:hover {
+  background-color: yellow;
+}
+
+
+.container {
+  /* border: 2px solid green; */
+  width: 23%;
+  margin: 3em 0em;
+  padding: 2rem;
+  border-radius: 10px;
+  height: 450px;
+  width: 500px;
+  background: fixed;
+  /* background-color: black; */
+
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.form-group input {
+  text-align: centre;
+  display: block;
+  width: 355px;
+  padding: 5px;
+  border-radius: 10px solid green;
+  margin: 5px auto;
+  font-size: 15px;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.container button {
+  display: block;
+  width: 75%;
+  margin: 30px auto;
+}
